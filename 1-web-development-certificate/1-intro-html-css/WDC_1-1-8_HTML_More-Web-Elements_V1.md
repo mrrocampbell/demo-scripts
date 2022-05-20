@@ -1,4 +1,4 @@
-# Demo Script: 1.1.7 Links and Paths
+# Demo Script: 1.1.8 More Web Elements
 
 * [Word Version of Script](https://chegg-my.sharepoint.com/:w:/p/rocampbell/Eah6wQvm-9dIlSxXoIl14kcBUFCHR7dYleXcIV-VxaVpZw?e=MIGJrV)
 * [Contentful lesson](https://overview.thinkful.com/preview/JS-MODULAR/version/1/introduction-to-web-development/guild-b2b-eng-module-introduction-html-css-fundamentals/modeng-more-web-elements)
