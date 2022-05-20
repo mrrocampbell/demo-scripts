@@ -1,9 +1,12 @@
 # Demo Script: 1.1.7 Links and Paths
+
 * [Replit Demo](https://replit.com/@mrrocampbell/1-1-7-links-and-paths#index.html)
 * [Word Version of Script](https://chegg-my.sharepoint.com/:w:/p/rocampbell/Ef_MHRAcm79Op_f2lCuv1kgBET7hCkh6xHrAfoUXEbMGWg?e=uZAbVI)
 * Jira Tickets:
   * [TFENG-2316: 1.1.7_DemoVideo_intro_html_css_fundamentals_links_paths](https://chegg.atlassian.net/browse/TFENG-2316)
   * [TFENG-1910: Add video - Links & Paths](https://chegg.atlassian.net/browse/TFENG-1910)
+
+## Script Start
 
 Hey, this is Roger from Thinkful. In this video, we are going to learn how to utilize file paths and web URLs to link to web pages and display images within our HTML websites.
 

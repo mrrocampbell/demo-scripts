@@ -1,4 +1,5 @@
 # Demo Script: 1.1.4 HTML Basics
+
 * [Replit Demo](https://replit.com/@mrrocampbell/114-html-basics#index.html)
 * [Word Version of Script](https://chegg-my.sharepoint.com/:w:/p/rocampbell/Ef_MHRAcm79Op_f2lCuv1kgBET7hCkh6xHrAfoUXEbMGWg?e=uZAbVI)
 * Jira Tickets:
@@ -7,6 +8,7 @@
 
 
 ## Script Start
+
 Hey, this is Roger from Thinkful. In this video, we are going to take a define what an HTML element is and how they are structured.
 
 This is an `h1 HTML element`:
