@@ -1,10 +1,10 @@
 # Demo Script: 1.1.4 HTML Basics
 
-* [Replit Demo](https://replit.com/@mrrocampbell/114-html-basics#index.html)
-* [Word Version of Script](https://chegg-my.sharepoint.com/:w:/p/rocampbell/Ef_MHRAcm79Op_f2lCuv1kgBET7hCkh6xHrAfoUXEbMGWg?e=uZAbVI)
-* Jira Tickets:
-  * [TFENG-2315: 1.1.4_DemoVideo_intro_html_css_fundamentals_html_basics](https://chegg.atlassian.net/browse/TFENG-2315)
-  * [TFENG-1909: Add video - HTML basics](https://chegg.atlassian.net/browse/TFENG-1909)
+- [Replit Demo](https://replit.com/@mrrocampbell/114-html-basics#index.html)
+- [Word Version of Script](https://chegg-my.sharepoint.com/:w:/p/rocampbell/Ef_MHRAcm79Op_f2lCuv1kgBET7hCkh6xHrAfoUXEbMGWg?e=uZAbVI)
+- Jira Tickets:
+  - [TFENG-2315: 1.1.4_DemoVideo_intro_html_css_fundamentals_html_basics](https://chegg.atlassian.net/browse/TFENG-2315)
+  - [TFENG-1909: Add video - HTML basics](https://chegg.atlassian.net/browse/TFENG-1909)
 
 
 ## Script Start
@@ -17,12 +17,16 @@ This is an `h1 HTML element`:
 ```
 
 An element for the most part is comprised of an opening and closing tag. The opening tag is what starts an element, where as the closing tag ends its.
+
 _**Note:** We will circle the opening and closing tags_
+
 ```html
 <h1>Hi I am an HTML element</h1>
 ```
 Closing tags will always have a `/` before the tag designation:
+
 _**Note:** Will circle the / inside the closing tags_
+
 ```html
 <h1>Hi I am an HTML element</h1>
 ```
@@ -43,6 +47,7 @@ Self closing tags are traditional reserved for elements that do not render text,
 Now that we have a better understanding of what HTML elements are and that they are made up of HTML tags. Its time to introduce another piece of the puzzle, the HTML attribute.
 
 _**Note:** As we say HTML attribute circle the src="./galaxy.png" portion of the element_
+
 ```html
 <img src="./galaxy.png">
 ```
@@ -50,6 +55,7 @@ _**Note:** As we say HTML attribute circle the src="./galaxy.png" portion of the
 `HTML attributes` allow us to provided extra details and information to an element. Take for instance an image element, in order to tell out HTML what image we want to render on our website we must provide a `src` or source attribute which tell our code where the image is located.
 
 _**Note:** Show students in replit how an image looks once we provide a source location_
+
 ```html
 <img src="./galaxy.png">
 ```
