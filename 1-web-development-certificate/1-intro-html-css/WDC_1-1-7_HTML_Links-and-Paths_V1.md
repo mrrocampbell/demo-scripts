@@ -8,11 +8,10 @@
 
 ## Script Start
 
-Hey, this is Roger from Thinkful. In this video, we are going to learn how to utilize file paths and web URLs to link to web pages and display images within our HTML websites.
+Hey, this is Roger from Thinkful. In this video, we will learn how to utilize file paths and web URLs to link to web pages and display images within our HTML websites.
 
-Let us start by creating a link that when clicked navigates our users to an external webpage, such as the Apple.com homepage.
-
-_**Note:** Will show students the link working for context in replit_
+Let us start by creating a link that, when clicked, navigates our users to an external webpage, such as the Apple.com homepage.
+**Note:** I will show students the link working for context in replit_
 
 ```HTML
 <a href='apple.com'>Apple Homepage</a>
@@ -20,32 +19,32 @@ _**Note:** Will show students the link working for context in replit_
 
 We will accomplish this by utilizing the anchor or a tag.
 
-_**Note:** Show the students a fully develop a tag for reference before actually coding one out for them to see step by step_
+_**Note:** Show the students a fully developed a tag for reference before actually coding one out for them to see step by step_
 
 ```html
 <a href='apple.com'>Apple Homepage</a>
 ```
 
-The anchor tag has a few different parts to it that allow us to accomplish this task. The first is the opening and closing tags.
+The anchor tag has a few different parts that allow us to accomplish this task. The first is the opening and closing tags.
 ```html
 <a></a>
 ```
 
-Next, we need to provide a title for the link that will be rendered on our website. This goes in the space between the opening and closing tag. Let’s make the title `Apple Homepage`:
+Next, we need to provide a title for the link rendered on our website. This goes in the space between the opening and closing tag. Let’s make the title `Apple Homepage`:
 ```html
 <a>Apple Homepage</a>
 ```
 
 Now if we look at our website, we can see that `Apple Homepage` renders on screen as normal text.
 
-_**Note:** Will show the students in replit how the site renders in its current state_
+_**Note:** I will show the students in replit how the site renders in its current state_
 
-To make this anchor tag a true link we must provide it with a `href` attribute, or hypertext reference attribute which goes within the opening anchor tag:
+To make this anchor tag a true link, we must provide it with a `href` attribute, or hypertext reference attribute, which goes within the opening anchor tag:
 ```html
 <a href=""></a>
 ```
 
-The `href` attribute is where you define the path or destination that the anchor leads to. Let’s set the path for this link to lead the user to the website Apple.com:
+The `href` attribute is where you define the path or destination that the anchor leads to. Let’s set the path for this link to direct the user to the website Apple.com:
 ```html
 <a href="https://www.apple.com/"></a>
 ```
@@ -60,9 +59,9 @@ _**Note:** Highlight the link in the display portion of replit so students can s
 
 If we click the link, we are then navigated to the Apple homepage.
 
-_**Note:** Will demonstrate this in replit so the students can see the link work in realtime._
+_**Note:** I will demonstrate this in replit so the students can see the link work in real-time._
 
-Now that we know how to use an `absolute link path` to navigate users to an external webpage, how would we handle creating a link that navigates users to a webpage that is a part of the website we are creating?
+Now that we know how to use an `absolute link path` to navigate users to an external webpage, how would we handle creating a link that guides users to a webpage that is a part of the website we are creating?
 
 This is where a `relative link path` comes into play. `Relative link paths` are used to connect one file to another based on their location within a server.
 
@@ -70,7 +69,7 @@ Let’s say you are developing a portfolio website to show all the awesome proje
 
 You have decided that your homepage will have a link that visitors can click to view your portfolio project webpage.
 
-_**Note:** Will show students a basic site that has this functionality as I talk about it._
+_**Note:** I will show students a basic site that has this functionality as I talk about it._
 
 ```html
 <!-- index.html -->
@@ -115,13 +114,13 @@ This would be an opportune time to deploy a link that uses a `relative link path
 
 So, to start, let's look at our current file structure. We have two files created with some started code.
 
-The first is an index.html file which is set up as our homepage. It has an h1 tag that says, “Welcome to my portfolio home page!” and above the h1 tag there is an anchor tag with the title “Portfolio Page”.
+The first is an index.html file which is set up as our homepage. It has an h1 tag that says, “Welcome to my portfolio home page!” and above the h1 tag, there is an anchor tag with the title “Portfolio Page”.
 
-Our second html file is called portfolio.html which also has an h1 tag with a title.
+Our second HTML file is portfolio.html, which also has an h1 tag with a title.
 
 So how do we tell the link in our index.html file to navigate users to the portfolio.html file? We do this by providing the anchor tag with a relative link path.
 
-By modifying our href with the relative link paths ./portfolio.html our browser can locate the portfolio.html file within our portfolio project file structure.
+By modifying our href with the relative link paths ./portfolio.html, our browser can locate the portfolio.html file within our portfolio project file structure.
 
 The ./ tells our browser to look within the current folder we are within for the portfolio.html file.
 
@@ -129,26 +128,24 @@ Now let’s look at this in action. If we click the “Portfolio Page” link, w
 
 Now that we know how to use relative link paths and Absolute link paths to navigate users to internal and external webpages, it is time to discuss how to use them to display images.
 
-We utilize the same logic as we did with anchor tags but instead utilize the img tag.
+We utilized the same logic with anchor tags but used the img tag instead.
 
-Let's say we want to render an image we found on google on our website. This is a prime opportunity to use an Absolute link path.
+We want to render an image we found on google on our website. This is a prime opportunity to use an Absolute link path.
+
 ```html
 <img src="https://pixadunes.com/wp-content/uploads/2019/10/PIXA002017-U.jpg"/>
 ```
 
-As you can see, rather than providing the src attribute with an `absolute link path` to a different webpage we have provided it with one that leads to the location on the internet where the picture lives. Which then allows our browser to render it on screen.
+As you can see, rather than providing the src attribute with an `absolute link path` to a different webpage, we have provided it with one that leads to the location on the internet where the picture lives. Which then allows our browser to render it on screen.
 
-_**Note:** Will show how the code above renders within replit_
+_**Note:** I will show how the code above renders within replit_
 
 The last thing we will look at is how to render an image that lives within our website’s file structure. Let’s say we saved a copy of our image within a folder called assets.
 
 _**Note:** Show students the image saved within the folder structure_
 
 How would we write a `relative link path` so that the browser could render the image? We can do this by providing the following path `./assets/groot.png`.
-```html
-<img src="./assets/groot.png"/>
-```
 
-As you can see, we are now able to render the Groot image with a `relative link path`.
+As you can see, we can now render the Groot image with a `relative link path`.
 
-Now take what you have learned, how to add links and images to a website. Thanks for watching. See you in the next video!
+Now take what you have learned to add links and images to a website. Thanks for watching! See you in the next video.

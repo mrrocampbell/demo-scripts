@@ -1,0 +1,14 @@
+{
+    "grammarly.selectors": [
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "1-web-development-certificate/1-intro-html-css/WDC_1-1-7_HTML_Links-and-Paths_V1.md"
+        },
+        {
+            "language": "markdown",
+            "scheme": "file",
+            "pattern": "1-web-development-certificate/1-intro-html-css/WDC_1-1-4_HTML_HTML-Basics_V1.md"
+        }
+    ]
+}
