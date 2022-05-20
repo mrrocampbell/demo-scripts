@@ -2,6 +2,7 @@
 
 - [Replit Demo](https://replit.com/@mrrocampbell/114-html-basics#index.html)
 - [Word Version of Script](https://chegg-my.sharepoint.com/:w:/p/rocampbell/Ef_MHRAcm79Op_f2lCuv1kgBET7hCkh6xHrAfoUXEbMGWg?e=uZAbVI)
+- * [Contentful lesson](https://overview.thinkful.com/preview/JS-MODULAR/version/1/introduction-to-web-development/guild-b2b-eng-module-introduction-html-css-fundamentals/modeng-html-basics)
 - Jira Tickets:
   - [TFENG-2315: 1.1.4_DemoVideo_intro_html_css_fundamentals_html_basics](https://chegg.atlassian.net/browse/TFENG-2315)
   - [TFENG-1909: Add video - HTML basics](https://chegg.atlassian.net/browse/TFENG-1909)

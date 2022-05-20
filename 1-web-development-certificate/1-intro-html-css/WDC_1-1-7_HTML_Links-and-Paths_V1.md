@@ -2,6 +2,7 @@
 
 * [Replit Demo](https://replit.com/@mrrocampbell/1-1-7-links-and-paths#index.html)
 * [Word Version of Script](https://chegg-my.sharepoint.com/:w:/p/rocampbell/Ef_MHRAcm79Op_f2lCuv1kgBET7hCkh6xHrAfoUXEbMGWg?e=uZAbVI)
+* [Contentful lesson](https://overview.thinkful.com/preview/JS-MODULAR/version/1/introduction-to-web-development/guild-b2b-eng-module-introduction-html-css-fundamentals/modeng-links-and-paths)
 * Jira Tickets:
   * [TFENG-2316: 1.1.7_DemoVideo_intro_html_css_fundamentals_links_paths](https://chegg.atlassian.net/browse/TFENG-2316)
   * [TFENG-1910: Add video - Links & Paths](https://chegg.atlassian.net/browse/TFENG-1910)
