@@ -5,6 +5,8 @@
   * [TFENG-2315: 1.1.4_DemoVideo_intro_html_css_fundamentals_html_basics](https://chegg.atlassian.net/browse/TFENG-2315)
   * [TFENG-1909: Add video - HTML basics](https://chegg.atlassian.net/browse/TFENG-1909)
 
+
+## Script Start
 Hey, this is Roger from Thinkful. In this video, we are going to take a define what an HTML element is and how they are structured.
 
 This is an `h1 HTML element`:
@@ -13,13 +15,13 @@ This is an `h1 HTML element`:
 ```
 
 An element for the most part is comprised of an opening and closing tag. The opening tag is what starts an element, where as the closing tag ends its.
+> We will circle the opening and closing tags
 ```html
-<!-- We will circle the opening and closing tags -->
 <h1>Hi I am an HTML element</h1>
 ```
 Closing tags will always have a `/` before the tag designation:
+> Will circle the / inside the closing tags
 ```html
-<!-- Will circle the / inside the closing tags -->
 <h1>Hi I am an HTML element</h1>
 ```
 
