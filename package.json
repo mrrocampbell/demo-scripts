@@ -1,0 +1,20 @@
+{
+  "name": "demo-scripts",
+  "version": "1.0.0",
+  "description": "This is a repo I created to provide SME, IDs, and others a place to view, review, and provide feedback on demo scripts before recording them.",
+  "main": "index.js",
+  "scripts": {
+    "start": "source ./pandoc-scripts.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrrocampbell/demo-scripts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrrocampbell/demo-scripts/issues"
+  },
+  "homepage": "https://github.com/mrrocampbell/demo-scripts#readme"
+}
